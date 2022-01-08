@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+body {
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.3);
+  font: normal normal 13px/16px "Open Sans", sans-serif;
+}
+
+.container {
+  width: 30%;
+  margin: 50px auto;
+  background-color: #fff;
+  height: auto;
+  padding: 25px;
+  border-radius: 5px;
+
+}
+
+.container h2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.container p {
+  font-size: 14px;
+  line-height: 2em;
+  text-align: justify;
+}
+
+form {
+  display: inline-block;
+}
+
+input {
+  padding: 5px 15px 5px 5px;
+  border: 1px solid  black;
+}
+
+#button {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px solid;
+  margin-left: 5px;
+  background-color: pink;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+#list > li {
+  padding: 10px 25px 10px 3px;
+}
+
+#list > li:nth-child(even) {
+  background-color: lightgray;
+}
+
+crossOutButton {
+  background: none;
+  border: none;
+  float: right;
+  color: #025f70;
+  font-weight: 800;
+}
+
+.remove {
+  display: none;
+}
