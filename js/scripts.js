@@ -13,6 +13,14 @@ function newItem() {
         $('#list').append(li);
     }
 
+    // $('input').on('keypress', function(e) {
+    //   e.preventDefault();
+    //   li.append(inputValue);
+    //    // $('#list').trigger('click');
+    //   $('#list').append(li);
+    // })
+
+
     // Crossing out the list Item using double click
     li.on("dblclick", function() {
         li.toggleClass("strike");
@@ -27,6 +35,7 @@ function newItem() {
 
     deleteButton.on('click', function() {
       li.addClass('remove');
+      // $('#list').addClass('coloring');
     });
 
     $('#list').sortable();
