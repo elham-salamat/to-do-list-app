@@ -60,10 +60,6 @@ input {
   background-color: lightgray;
 }
 
-/* .coloring li:nth-child(even) {
-  background-color: lightgray;
-} */
-
 crossOutButton {
   background: none;
   border: none;
@@ -72,6 +68,6 @@ crossOutButton {
   font-weight: 800;
 }
 
-.remove {
+/* .remove {
   display: none;
-}
+} */
