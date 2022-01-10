@@ -1,6 +1,6 @@
 
 // function to create list element
-function listCreation(inputValue) {
+function listItemCreation(inputValue) {
     let li = $('<li></li>');
     li.append(inputValue);
 
@@ -29,7 +29,7 @@ function newItem() {
     if (inputValue === "") {
         alert("the field cannot be empty!")
     } else {
-        listCreation(inputValue);
+        listItemCreation(inputValue);
     }
 }
 
@@ -38,14 +38,9 @@ $('input').on('keypress', function(e) {
 
     if (e.key === 'Enter') {
         e.preventDefault();
-        let inputValue = $('input').val();
-        if (inputValue === "") {
-            alert("the field cannot be empty!")
-        } else {
-            listCreation(inputValue);
-        }
+        newItem();
     }
-  });
+});
 
 
 
